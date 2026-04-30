@@ -134,12 +134,18 @@ section h2 {
 }
 
 .resource-card {
-  border-radius: 0.75rem;
-  border: 1px solid #dde2ea;
-  padding: 1.25rem;
-  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
+.resource-img {
+  width: 100%;
+  height: 220px;        /* Ajuste la hauteur ici si tu veux plus ou moins grand */
+  object-fit: cover;    /* Remplit la zone sans déformation */
+  border-radius: 8px;   /* Même arrondi que la carte */
+  display: block;
+}
 .resource-card h3 {
   font-size: 1.1rem;
   margin-bottom: 0.4rem;
