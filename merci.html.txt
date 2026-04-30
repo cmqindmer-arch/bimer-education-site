@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Merci</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <section class="hero">
+    <div class="container">
+      <h1>Merci pour votre message</h1>
+      <p>Nous vous répondrons dans les meilleurs délais.</p>
+      <a href="/" class="btn btn-primary">Retour au site</a>
+    </div>
+  </section>
+</body>
+</html>
